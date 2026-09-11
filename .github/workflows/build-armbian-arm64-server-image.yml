@@ -4,7 +4,8 @@
 #==========================================================================
 
 name: Build Armbian arm64 server image
-
+permissions:
+  contents: write
 on:
   repository_dispatch:
   workflow_dispatch:
